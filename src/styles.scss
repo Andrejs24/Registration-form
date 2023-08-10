@@ -1,3 +1,70 @@
 body {
-  background-color: antiquewhite;
+  display: flex;
+  background-color: coral;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form-container {
+  width: 70%;
+  max-width: 500px; 
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.first-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  // background-color: yellowgreen;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  // background-color: rebeccapurple;
+  
+}
+.radio-buttons label {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-left: 10px; 
+}
+
+
+
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  // background-color: green;
+}
+
+
+
+h1 {
+  text-align: center;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
